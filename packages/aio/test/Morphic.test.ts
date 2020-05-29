@@ -43,7 +43,6 @@ const A_ = summon((F) =>
 )
 
 interface A extends MO.AType<typeof A_> {}
-// eslint-disable-next-line @typescript-eslint/class-name-casing
 interface A_ extends MO.EType<typeof A_> {}
 const A = MO.AsOpaque<A_, A>()(A_)
 
@@ -58,7 +57,6 @@ const B_ = summon((F) =>
 )
 
 interface B extends MO.AType<typeof B_> {}
-// eslint-disable-next-line @typescript-eslint/class-name-casing
 interface B_ extends MO.EType<typeof B_> {}
 const B = MO.AsOpaque<B_, B>()(B_)
 
@@ -73,7 +71,6 @@ const C_ = summon((F) =>
 )
 
 interface C extends MO.AType<typeof C_> {}
-// eslint-disable-next-line @typescript-eslint/class-name-casing
 interface C_ extends MO.EType<typeof C_> {}
 const C = MO.AsOpaque<C_, C>()(C_)
 
